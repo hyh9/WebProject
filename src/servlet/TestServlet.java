@@ -13,6 +13,7 @@ public class TestServlet extends HttpServlet {
     protected void service(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setCharacterEncoding("UTF-8");
         resp.setContentType("text/html;charset=utf-8");
-        resp.getWriter().write("Hello World 哇哦i分红i文案");
+        resp.getWriter().write("Hello World 哇哦i分红i文案 this is a new world");
+
     }
 }
